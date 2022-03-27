@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  box-shadow: 0 1px 5px #f0f2f5;
+}
+.header__logoAndSearch {
+  display: flex;
+  align-items: center;
+}
+.header__logoAndSearch i.iconFacebook {
+  margin: 0 12px;
+  color: #0d88f0;
+  font-size: 32px;
+}
+.header__logoAndSearch .search {
+  position: relative;
+}
+.header__logoAndSearch .search input {
+  border-radius: 50px;
+  padding: 4px 0 4px 32px;
+  background-color: #f0f2f5;
+  border: none;
+}
+.header__logoAndSearch .search i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 10px;
+  color: #c4c6ca;
+}
+.header__control i {
+  padding: 0 24px;
+  font-size: 24px;
+  color: #0d88f0;
+}
+.header__detail i {
+  padding: 0 24px;
+  font-size: 24px;
+  color: #0d88f0;
+}
+
+.main {
+  background-color: #f0f2f5;
+  height: 1000px;
+  padding: 0 16px;
+}
+
+/*# sourceMappingURL=homepgae.css.map */
